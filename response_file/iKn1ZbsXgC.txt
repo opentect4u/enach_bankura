@@ -1,0 +1,1 @@
+{"loan_id":"103505","cust_id":"1031319","tnx_id":"iKn1ZbsXgC","flag":"O","cust_name":"RAHUL DEY","msg":"0392|User Aborted|Hash_Validation_fail|iKn1ZbsXgC||E40772916|2600|{itc:}{email:deyrahul1358@gmail.com}{mob:9832216621}|07-01-2025 14:04:04|NA||||||43bfaa97b715a22494f4d6e45016c032f0ff4fba903a4e38c093f3619a4e09ba28bbef635476c2044a14cf2ace90732fcdfc4da4e8eeb3e8dc48befa3120aeaf"}

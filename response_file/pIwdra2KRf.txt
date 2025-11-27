@@ -1,0 +1,1 @@
+{"loan_id":"103502","cust_id":"1031313","tnx_id":"pIwdra2KRf","flag":"O","cust_name":"SUSHIL SARKAR","msg":"0392|User Aborted|Transaction aborted by user|pIwdra2KRf||E40826356|2600|{itc:}{email:}{mob:9749370909}|09-01-2025 17:04:30|NA||||||dfb0f0c7854ca687fe733cd9166a6314395c500667857e41d3b2d3d0868fea2ed59ec37c3ff352459023a7031a615227f1056cb5626d59c511c4ee1b145d62a4"}

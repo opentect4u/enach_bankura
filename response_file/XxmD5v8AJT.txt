@@ -1,0 +1,1 @@
+{"loan_id":"103498","cust_id":"1031221","tnx_id":"XxmD5v8AJT","flag":"O","cust_name":"TAPATI SAHA","msg":"0392|User Aborted|Transaction aborted by user|XxmD5v8AJT||E39409422|2300|{itc:}{email:}{mob:9434539969}|01-11-2024 11:36:02|NA||||||773f0e26f857d84dcb1651b8f93e2afa188e4598b859122637651e91784b4766744c72f01acbc98942eb4f836fad4c0f7129ff30a2cd454f2a69dc1357c9a2d0"}

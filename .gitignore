@@ -1,0 +1,27 @@
+# Logs
+application/logs/*.php
+!application/logs/index.html
+
+# Cache
+application/cache/*
+!application/cache/index.html
+
+# Composer (if used)
+/vendor/
+composer.lock
+
+# Environment-specific configuration (if separated)
+application/config/development/*
+application/config/testing/*
+
+# IDE/OS specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.bak
+~*
+application/config/database.php

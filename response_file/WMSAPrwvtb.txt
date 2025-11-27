@@ -1,0 +1,1 @@
+{"loan_id":"107246","cust_id":"107635","tnx_id":"WMSAPrwvtb","flag":"O","cust_name":"NIRAPADA PARAMANIK","msg":"0392|User Aborted|Enter valid maximum amount|WMSAPrwvtb||E37668078|0|{itc:}{email:}{mob:6294496780}|28-07-2024 22:52:24|NA||||||30ae04ba55e1ca08e0cef17a4c7ca1432a513ec08dc82115b4676de9d3091e172e0d7740f3f553d9f8b2ea3dc1f2248a29555da148cb4e2e9f2c087ff8e0527d"}

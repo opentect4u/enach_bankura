@@ -1,0 +1,1 @@
+{"loan_id":"107246","cust_id":"107635","tnx_id":"ix8KM9ZC7P","flag":"O","cust_name":"NIRAPADA PARAMANIK","msg":"0392|User Aborted|Transaction aborted by user|ix8KM9ZC7P|11060|E37668163|2000|{itc:}{email:}{mob:6294496780}|28-07-2024 23:00:47|NA||||||938642b1852d9913b7f136f04fad64f708f888ded208ae3d5c9c7e0e40ce1d6e15c57482362a1a02fa3d03782e20152b61056c8f24c90baf9f3dcb70a4b0943c"}

@@ -1,0 +1,1 @@
+{"loan_id":"105619","cust_id":"105898","tnx_id":"fNat73buoS","flag":"O","cust_name":"PANU THAMI","msg":"0392|User Aborted|Transaction aborted by user|fNat73buoS||E39035667|1667|{itc:}{email:}{mob:7063217402}|09-10-2024 15:12:37|NA||||||6932a498a42cafe9d98840e73c9ecdd3bc4b6e1fa08440eff8b689ef84985301d71e2608db4bba1f147ac802ef7f72d26721060fd920d87b885a4bb8a096e471"}

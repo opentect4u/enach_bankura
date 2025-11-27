@@ -1,0 +1,1 @@
+{"loan_id":"10896","cust_id":"10898","tnx_id":"7KOZLQowcX","flag":"O","msg":"0392|User Aborted|Enter valid consumer email id|7KOZLQowcX||E37065822|0|{itc:}{email:32\/134}{mob:9002194702}|24-06-2024 16:00:27|NA||||||bdf646d3ed090f37060d4a4192acff22d1b90adbc3cf613b8f1b3d3ba4c0be23b71888161b34d677661cf619653f8b7691eb6e26bd8d0456156cb95085725ac8"}

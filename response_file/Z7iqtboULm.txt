@@ -1,0 +1,1 @@
+{"loan_id":"103144","cust_id":"103738","tnx_id":"Z7iqtboULm","flag":"O","cust_name":"UTTAM SHIL","msg":"0392|User Aborted|Transaction aborted by user|Z7iqtboULm||E37123060|20000|{itc:}{email:}{mob:9932160968}|28-06-2024 12:35:56|NA||||||ecc7e5a76218b9361ae3cc5e1cd884cf355be32de98578988a5cf1540cb81d15a13b08efa4a37aac395789453c6b71c0b8f5d13808f14b10433cb7bc2d6bcc9a"}

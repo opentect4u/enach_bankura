@@ -1,0 +1,1 @@
+{"loan_id":"105654","cust_id":"1051041","tnx_id":"UDwG2EQ7df","flag":"O","cust_name":"RAJEN MANGRATI","msg":"0392|User Aborted|Transaction aborted by user|UDwG2EQ7df||E40187274|1667|{itc:}{email:}{mob:7797301927}|11-12-2024 14:00:12|NA||||||d1d515fb11a1a3a2771afc3934fb5c94d717bea98b86d9547175acf3114eca408963e0936b8fe16e4bbb37f71813e8087f0b2036fee96dd4ee1c3830d34c3d67"}

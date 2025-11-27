@@ -1,0 +1,1 @@
+{"loan_id":"103404","cust_id":"103388","tnx_id":"Uq2EiAc4lP","flag":"O","cust_name":"DEBI PAL","msg":"0392|User Aborted|Transaction aborted by user|Uq2EiAc4lP||E37719030|1667|{itc:}{email:wbscardb@gmail.com}{mob:8250918710}|31-07-2024 11:44:19|NA||||||dc70106e3bd224a1cd469487995bce2f46ed2e978b4e80208f5cfb3afce46402ee42836b092f14c3a0cda55ccc36a6f0cad947d3a513cd5de2bff8928c25ff41"}

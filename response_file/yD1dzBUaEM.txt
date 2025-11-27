@@ -1,0 +1,1 @@
+{"loan_id":"1041159","cust_id":"1041399","tnx_id":"yD1dzBUaEM","flag":"O","cust_name":"BISHALAXMI PRASAD SAU","msg":"0392|User Aborted|Transaction aborted by user|yD1dzBUaEM||E39385201|2180|{itc:}{email:}{mob:9614146782}|30-10-2024 14:55:06|NA||||||03fe7b06b7c6bc991dafd94bfa098f41c9c9bdd6a3352fa3f31efe8fca1ffba3d44954d5a468186d1218efb6a8c1d7e25338d5afd3fe1a8023bc62ee17df6bff"}

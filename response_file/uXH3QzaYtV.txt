@@ -1,0 +1,1 @@
+{"loan_id":"103544","cust_id":"1031345","tnx_id":"uXH3QzaYtV","flag":"O","cust_name":"TARAPADA ADHIKARI","msg":"0392|User Aborted|Transaction aborted by user|uXH3QzaYtV|14770|E42512606|2600|{itc:}{email:}{mob:9933730822}|24-03-2025 14:25:54|NA||||||49fe9ecb53fed56855a4ef5fb7ff06348b5ba7eacabfd7061ac1b44155f9a5958801e1f3425aad6c628a4e2030ca97d04943717a6271dc18610322ae8aa87c65"}

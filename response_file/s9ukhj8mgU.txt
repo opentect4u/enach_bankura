@@ -1,0 +1,1 @@
+{"loan_id":"103460","cust_id":"1031188","tnx_id":"s9ukhj8mgU","flag":"O","msg":"0392|User Aborted|Transaction aborted by user|s9ukhj8mgU||E37066619|8333|{itc:}{email:}{mob:9800100550}|24-06-2024 16:32:37|NA||||||1bb4795b082abd2dda05001a45362a7bf5c20004b00d4dfac9d288cd0ef3cb56ac0f1f48870dd743d2d39e95f3d030fe0e3e72566d856c90d398f3797e0f6552"}

@@ -1,0 +1,1 @@
+{"loan_id":"111545","cust_id":"1111127","tnx_id":"6hjJ4Gfg3I","flag":"O","cust_name":"JABA GORAIN","msg":"0392|User Aborted|Transaction aborted by user|6hjJ4Gfg3I||E37141183|5000|{itc:}{email:}{mob:}|29-06-2024 14:30:09|NA||||||4a595dc7f948a8410fe067d8fd182de01d82c8c0662f1c072d246ca052f2c833e9a91e97c67742bf05fcc4dbcb3fcf90a13f23e14c84e6c7f53d7fce0668f366"}

@@ -1,0 +1,1 @@
+{"loan_id":"103544","cust_id":"","tnx_id":"x4NBGDzFat","flag":"O","cust_name":"","msg":"0392|User Aborted|amount can't be blank.Enter valid maximum amount|x4NBGDzFat||E42511961|0|{itc:}{email:}{mob:}|24-03-2025 14:06:07|NA||||||8498e9d2ca998f63392f388a3d4530aa7f9baedf27039719f247e99d5be466f84345e0b40cd4f62a0b7d44ee2cfc1ad03e02a676b564bb6e4acae70b60c1dd21"}

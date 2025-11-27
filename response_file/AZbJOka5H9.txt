@@ -1,0 +1,1 @@
+{"loan_id":"111597","cust_id":"1111182","tnx_id":"AZbJOka5H9","flag":"O","cust_name":"CHANDI CHARAN BANERJEE","msg":"0392|User Aborted|Transaction aborted by user|AZbJOka5H9||E38588709|5500|{itc:}{email:}{mob:7585870560}|13-09-2024 10:54:21|NA||||||59b0b95a1303d83b083ca709a9d578ca375474af9fb6c3d3c0ec40c3670479bda2fdef909cb03c09c1a3e5b710e9b04d87f7a05db988b81f0d96739dce5e5e0a"}

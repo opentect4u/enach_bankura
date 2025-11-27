@@ -1,0 +1,1 @@
+{"loan_id":"105657","cust_id":"1051042","tnx_id":"XP2WrZe7VF","flag":"O","cust_name":"MOHAMMAD RAJU","msg":"0392|User Aborted|Transaction aborted by user|XP2WrZe7VF||E42537822|2610|{itc:}{email:}{mob:9749178001}|25-03-2025 12:53:14|NA||||||b888efa12f5a2a7efd73f66cc728978964fdac190bf8adb95b106c892c79875e13a02446a684e403183893436171de22d95eb632e538d6dd6882c2055b27fd83"}

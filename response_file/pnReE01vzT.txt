@@ -1,0 +1,1 @@
+{"loan_id":"100000","cust_id":"10000","tnx_id":"pnReE01vzT","flag":"I","cust_name":"Test","msg":"0392|User Aborted|Transaction aborted by user|pnReE01vzT||E46148648|1|{itc:}{email:subham@synergicsoftek.in}{mob:9051203118}|23-07-2025 13:14:02|NA||||||06cc103c64591ec73a794558524729d968a0c09e2cbd703512dc989f12adb2b490b4a67f2c2af875d56b1cfbd1c3a6cbc07f094e8f2777fbab8b023cc4f90bbc"}

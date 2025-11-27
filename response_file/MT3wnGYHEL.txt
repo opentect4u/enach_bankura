@@ -1,0 +1,1 @@
+{"loan_id":"103404","cust_id":"103388","tnx_id":"MT3wnGYHEL","flag":"O","cust_name":"Suman Bhar","msg":"0392|User Aborted|Hash_Validation_fail|MT3wnGYHEL||E37460087|1667|{itc:}{email:sumanbhar@gmail.com}{mob:09831226726}|18-07-2024 11:45:16|NA||||||df45fe55773766c39c147ae989e95ce78c293f9b034047b21c8283548f35de3eb54744fbec005997e18ca7b2a5bd01fc5bd2afd2816045b435b188062b482f27"}

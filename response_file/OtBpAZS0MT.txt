@@ -1,0 +1,1 @@
+{"loan_id":"105591","cust_id":"105972","tnx_id":"OtBpAZS0MT","flag":"O","cust_name":"KARMA YONDEN BHUTIA","msg":"0392|User Aborted|Enter valid consumer email id|OtBpAZS0MT||E38532811|0|{itc:}{email:44\/49}{mob:9733331517}|10-09-2024 13:01:11|NA||||||c1654a345f64b69a2872f475ecc3a3d4fcde105b91777b8bf3a5581e4ed1a77de08b935de3fe33c255536a8d6556cf62204c1acb9eeb9267f8dd396847a9dbe3"}

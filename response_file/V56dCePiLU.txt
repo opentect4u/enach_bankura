@@ -1,0 +1,1 @@
+{"loan_id":"108443","cust_id":"108485","tnx_id":"V56dCePiLU","flag":"O","cust_name":"SHYAMAPADA HEMBRAM","msg":"0392|User Aborted|Enter valid consumer email id|V56dCePiLU||E39770428|0|{itc:}{email:59\/41}{mob:8972198216}|21-11-2024 14:56:38|NA||||||62d931a9c6816601677e669badcb1f44953d8fb99863ce80b6f753b2ad8972540e40e5c3c82f6dc194aadd9516bc2ca279b39ef61cf4646ecd48cc3be8bef286"}

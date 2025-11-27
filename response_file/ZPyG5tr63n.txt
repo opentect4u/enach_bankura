@@ -1,0 +1,1 @@
+{"loan_id":"1041140","cust_id":"1041379","tnx_id":"ZPyG5tr63n","flag":"O","cust_name":"NILKAMAL DHALI","msg":"0392|User Aborted|Transaction aborted by user|ZPyG5tr63n|11060|E39241999|2182|{itc:}{email:}{mob:9679789588}|21-10-2024 11:50:05|NA||||||9da195e44ced55fecbef6b4840395b0c10a03fe7413e449d9a00bce473c72c50c1e5abdd6cf9f8b1d64444f2030cbfd9f3650bc10fa0194cd21a7dc31db2178f"}

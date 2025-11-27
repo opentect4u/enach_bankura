@@ -1,0 +1,1 @@
+{"loan_id":"103504","cust_id":"1031320","tnx_id":"NCHP7OTvZi","flag":"O","cust_name":"KAUSHIK DAS","msg":"0392|User Aborted|Hash_Validation_fail|NCHP7OTvZi||E40773817|2600|{itc:}{email:kd5778529@gmail.com}{mob:8670333475}|07-01-2025 14:34:57|NA||||||6b0fd6db1446023013324fa0505375e5a4de2a29ef31e944157a75fe40bd4264f14e9fbac2cd96d35d7e8fc1c143ec2e4f41da184c081ced067c23d7e48697e4"}

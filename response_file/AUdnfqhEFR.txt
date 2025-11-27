@@ -1,0 +1,1 @@
+{"loan_id":"111368","cust_id":"111391","tnx_id":"AUdnfqhEFR","flag":"O","cust_name":"SHANTIRAM MAHATO","msg":"0392|User Aborted|Transaction aborted by user|AUdnfqhEFR||E38929209|1000|{itc:}{email:}{mob:}|03-10-2024 14:30:30|NA||||||f7cc089cc8b5dc9175c02e38d0c72ed8a38bfcc185ff7689d2fd952627f0b9955f48d02f193923c16ffe511fb1a3ebb0a47883d06e42e9f9c3338eeed2c004b1"}

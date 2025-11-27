@@ -1,0 +1,15 @@
+#loader .loading {
+    /* width: 600px; */
+    height: 85vh;
+    margin: auto;
+}
+
+#loader .loading {
+    background: url(../images/loader.gif) no-repeat center center;
+    /* width: 32px; */
+    margin: auto;
+}
+
+.swal2-modal .swal2-icon, .swal2-modal .swal2-success-ring {
+    margin-bottom: 0px !important;
+}

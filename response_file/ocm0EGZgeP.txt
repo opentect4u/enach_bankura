@@ -1,0 +1,1 @@
+{"loan_id":"1041103","cust_id":"1041342","tnx_id":"ocm0EGZgeP","flag":"O","cust_name":"BADAL DEBNATH"}
