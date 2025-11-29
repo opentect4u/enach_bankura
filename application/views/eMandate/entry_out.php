@@ -911,9 +911,16 @@
 		</div>
 	</div>
 
-	<div class="footerCopyright">Copyright &#169; 2025 Bankura District Co-operative ARDB Ltd. All rights reserved.<br>
-		<a href="https://www.synergicsoftek.in/" target="_blank">Designed &amp; Developed By Synergic Softek Solutions
-			Pvt. Ltd. </a>
+	<div class="footerCopyright">
+		<a href="https://bankuracardbank.com/terms-conditions/" target="_blank" style="color:#d7b43c;">Terms &amp;
+			Conditions</a> | <a href="https://bankuracardbank.com/privacy-policy/" target="_blank"
+			style="color:#d7b43c;">Privacy Policy</a> | <a href="https://bankuracardbank.com/delivery-shipping-policy/"
+			target="_blank" style="color:#d7b43c;">Delivery/Shipping Policy</a> | <a
+			href="https://bankuracardbank.com/cancellation-refund-policy/" target="_blank"
+			style="color:#d7b43c;">Cancellation/Refund Policy</a><br>
+		Copyright © 2025 Bankura District Co-operative ARDB Ltd. All rights reserved.<br>
+		<a href="https://www.synergicsoftek.in/" target="_blank">Designed &amp; Developed By Synergic Softek Solutions Pvt.
+			Ltd. </a>
 	</div>
 
 

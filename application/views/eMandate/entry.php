@@ -67,7 +67,18 @@
                 <input type="hidden" name="token" id="token" value="">
                 <div class="row mt-3">
                     <div class="col-md-12">
-                        <button type="button" class="btn btn-success" id="processBtn">Process</button>
+                        <div class="form-check d-flex align-items-center">
+                            <input class="form-check-input" type="checkbox" id="termsCheckbox" required>
+                            <label class="form-check-label" for="termsCheckbox">
+                                I accept the <a href="https://bankuracardbank.com/terms-conditions/" target="_blank">Terms & Conditions.</a>
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <button type="button" class="btn bg-success btn-success" id="processBtn">Process</button>
                         <button id="btnSubmit" class="btn btn-success" style="display:none;">Register Now</button>
                     </div>
                 </div>
