@@ -12,7 +12,7 @@
 	</style>
 
 	<!-- This site is optimized with the Yoast SEO plugin v25.8 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Loan - Welcome to Bankura District Co-operative ARDB Ltd.</title>
+	<title>Natch - Welcome to Bankura District Co-operative ARDB Ltd.</title>
 	<link rel="canonical" href="https://bankuracardbank.com/loan/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
