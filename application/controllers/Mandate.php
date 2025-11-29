@@ -189,7 +189,8 @@ class Mandate extends CI_Controller {
                     "tpsl_txn_date_time" => date('Y-m-d h:i:s', strtotime($resp_msg_arr[8])),
                     "bank_tnx_id" => $resp_msg_arr[12],
                     "mandate_reg_no" => $resp_msg_arr[13],
-					"umrn_number" => $umrnNumber
+					"umrn_number" => $umrnNumber,
+					"t_and_c_checked" => $data['t_and_c']
                 );
 				$api_data_orc = array(
 					"table_name" => "m_enach_reg_data",

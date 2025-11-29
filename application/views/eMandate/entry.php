@@ -79,7 +79,7 @@
                 <div class="row mt-3">
                     <div class="col-md-12">
                         <button type="button" class="btn bg-success btn-success" id="processBtn">Process</button>
-                        <button id="btnSubmit" class="btn btn-success" style="display:none;">Register Now</button>
+                        <button id="btnSubmit" class="btn bg-success btn-success" style="display:none;">Register Now</button>
                     </div>
                 </div>
             </div>
@@ -118,11 +118,11 @@ $(document).ready(function() {
             "consumerData": {
                 "deviceId": "WEBSH2",    //possible values "WEBSH1" or "WEBSH2"
                 "token": $('#token').val().toString(),
-                "returnUrl": "<?= site_url() ?>/tnx_resp?loan_id="+$('#consumer_id').val()+"&cust_id="+$('#cust_id').val()+"&tnx_id=<?= $tnxId ?>&flag=<?= $flag ?>&cust_name="+$('#cust_name').val(),
+                "returnUrl": "<?= site_url() ?>/tnx_resp?loan_id="+$('#consumer_id').val()+"&cust_id="+$('#cust_id').val()+"&tnx_id=<?= $tnxId ?>&flag=<?= $flag ?>&cust_name="+$('#cust_name').val()+"&t_and_c="+$('#termsCheckbox').is(':checked') ? 'Y' : 'N',
                 "responseHandler": handleResponse,
                 "paymentMode": "netBanking",
                 "merchantLogoUrl": "https://www.wbscardb.com/wp-content/themes/WBSCARDB-child/assets/images/logo.png",  //provided merchant logo will be displayed
-                "merchantId": "<?= MERCHANT_CODE ?>",
+                "merchantId": "<?php // MERCHANT_CODE ?>",
                 "currency": "INR",
                 "consumerId": $('#consumer_id').val(),//"c964634",  //Your unique consumer identifier to register a eMandate/eNACH
                 "consumerMobileNo": $('#mobile_no').val(),//"9876543210",
@@ -213,27 +213,31 @@ $(document).ready(function() {
 </script>
 <script>
 	$('#processBtn').on('click', function(){
-		$.ajax({
-		    type: "POST",
-		    url: "<?= site_url('/generate_token'); ?>",
-		    data: {consumer_id: $('#consumer_id').val(), mobile_no: $('#mobile_no').val(), email: $('#email').val(), strt_dt: $('#strt_dt').val(), end_dt: $('#end_dt').val(), bebit_amt: $('#bebit_amt').val(), amt_type: $('#amt_type').val(), tnxId: $('#tnxId').val(), reg_amt: $('#reg_amt').val()},
-		    dataType: 'html',
-            beforeSend: function () {
-                // Show image container
-                $("#loader").show();
-                $('#display-content').hide();
-            },
-		    success: function (result) {
-				$('#token').val(result)
-				$('#btnSubmit').show();
-				$('#processBtn').hide()
-		    },
-            complete: function (data) {
-                // Hide image container
-                $("#loader").hide();
-                $('#display-content').show();
-            }
-		});
+        if($('#termsCheckbox').is(':checked')){
+            $.ajax({
+                type: "POST",
+                url: "<?= site_url('/generate_token'); ?>",
+                data: {consumer_id: $('#consumer_id').val(), mobile_no: $('#mobile_no').val(), email: $('#email').val(), strt_dt: $('#strt_dt').val(), end_dt: $('#end_dt').val(), bebit_amt: $('#bebit_amt').val(), amt_type: $('#amt_type').val(), tnxId: $('#tnxId').val(), reg_amt: $('#reg_amt').val()},
+                dataType: 'html',
+                beforeSend: function () {
+                    // Show image container
+                    $("#loader").show();
+                    $('#display-content').hide();
+                },
+                success: function (result) {
+                    $('#token').val(result)
+                    $('#btnSubmit').show();
+                    $('#processBtn').hide()
+                },
+                complete: function (data) {
+                    // Hide image container
+                    $("#loader").hide();
+                    $('#display-content').show();
+                }
+            });
+        }else{
+            triggerSweetAlert("Warning", "Please accept the Terms and Conditions to proceed.", "warning")
+        }
 	})
 
     $('#consumer_id').on('change', function(){
