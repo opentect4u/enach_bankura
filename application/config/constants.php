@@ -84,8 +84,8 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-define('SALT_KEY', '1928994908MFINNK');
-define('MERCHANT_CODE', 'T1016979');
+define('SALT_KEY', '2560649548TLGFOI');
+define('MERCHANT_CODE', 'T1113287');
 // define('MERCHANT_CODE', 'L1016979');
 define('SCHEME_CODE', 'FIRST');
 define('API_URL', 'http://localhost:3000/bankura');

@@ -118,11 +118,11 @@ $(document).ready(function() {
             "consumerData": {
                 "deviceId": "WEBSH2",    //possible values "WEBSH1" or "WEBSH2"
                 "token": $('#token').val().toString(),
-                "returnUrl": "<?= site_url() ?>/tnx_resp?loan_id="+$('#consumer_id').val()+"&cust_id="+$('#cust_id').val()+"&tnx_id=<?= $tnxId ?>&flag=<?= $flag ?>&cust_name="+$('#cust_name').val()+"&t_and_c="+$('#termsCheckbox').is(':checked') ? 'Y' : 'N',
+                "returnUrl": "<?= site_url() ?>/tnx_resp?loan_id="+$('#consumer_id').val()+"&cust_id="+$('#cust_id').val()+"&tnx_id=<?= $tnxId ?>&flag=<?= $flag ?>&cust_name="+$('#cust_name').val()+"&t_and_c="+($('#termsCheckbox').is(':checked') ? 'Y' : 'N'),
                 "responseHandler": handleResponse,
                 "paymentMode": "netBanking",
-                "merchantLogoUrl": "https://www.wbscardb.com/wp-content/themes/WBSCARDB-child/assets/images/logo.png",  //provided merchant logo will be displayed
-                "merchantId": "<?php // MERCHANT_CODE ?>",
+                "merchantLogoUrl": "https://enach.bankuracardbank.com/assets/images/logo-bankura-ardb.jpg",  //provided merchant logo will be displayed
+                "merchantId": "<?= MERCHANT_CODE ?>",
                 "currency": "INR",
                 "consumerId": $('#consumer_id').val(),//"c964634",  //Your unique consumer identifier to register a eMandate/eNACH
                 "consumerMobileNo": $('#mobile_no').val(),//"9876543210",
