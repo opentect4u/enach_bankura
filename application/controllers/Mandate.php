@@ -149,30 +149,35 @@ class Mandate extends CI_Controller {
     function get_tnx_response(){
 		// var_dump($_REQUEST);
 		$data = $_REQUEST;
-		$myfile = fopen("response_file/".$data['tnx_id'].".txt", "w");
+		// $myfile = fopen("response_file/".$data['tnx_id'].".txt", "w");
 		$txt = json_encode($data);
 		fwrite($myfile, $txt);
 		fclose($myfile);
+		// FOR TESTING PURPOSE ONLY //
         // $data = '{"loan_id":"10311","cust_id":"103558","msg":"0300|success||iI9KszA6Fb|11060|339865395|10.00|{itc:~mandateData{UMRNNumber:SBIN7022805245014003~IFSCCode:SBIN0004343~amount_type:M~frequency:MNTH~account_number:42049874517~expiry_date:28-05-2025~ifsc_code:~amount:10~identifier:~schedule_date:28-05-2024~debitDay:~debitFlag:N~aadharNo:~accountHolderName:Debasish Adhikary~accountType:Saving~dateOfBirth:~mandatePurpose:~utilityNo:~helpdeskNo:~helpdeskEmail:~pan:~phoneNumber:~emailID:}}|28-05-2024 15:39:44|NA|||145751939b514df2a0667f42713eddf9|1081815612|ffdcff03-c5a3-46a3-8a9c-096a8f507712|e9193e9d6314af2fae6ee3317be2c9e8e88a0f53f259381df915dc136db20a7760448e8b37327469653b5dbe03f4a302f84fb7b2f607a34f1110383ae17c5627"}';
+		// $data = json_decode($data, true);
         try {
             // $dec_data = json_decode($data);
 			// var_dump($_SESSION['user']);exit;
             $dec_data = $data;
-            $loan_id = $dec_data['loan_id'];
-            $cust_id = $dec_data['cust_id'];
-            $resp_msg = $dec_data['msg'];
-			$flag = $dec_data['flag'];
-			$cust_name = $dec_data['cust_name'];
-
+            $loan_id = isset($dec_data['loan_id']) ? $dec_data['loan_id'] : 0;
+            $cust_id = isset($dec_data['cust_id']) ? $dec_data['cust_id'] : 0;
+            $resp_msg = isset($dec_data['msg']) ? $dec_data['msg'] : '';
+			$flag = isset($dec_data['flag']) ? $dec_data['flag'] : 'I';
+			$cust_name = isset($dec_data['cust_name']) ? $dec_data['cust_name'] : '';
+			$start_dt = isset($dec_data['strt_dt']) ? date('Y-m-d', strtotime($dec_data['strt_dt'])) : null;
+			$end_dt = isset($dec_data['end_dt']) ? date('Y-m-d', strtotime($dec_data['end_dt'])) : null;
+			// var_dump($start_dt, $end_dt); exit;
 			// $loan_id = $dec_data->loan_id;
             // $cust_id = $dec_data->cust_id;
             // $resp_msg = $dec_data->msg;
 
             $resp_msg_arr = explode('|', $resp_msg);
+			// UMRN NUMBER EXTRACTION
 			$umrnNumberFirst = explode('UMRNNumber:', $resp_msg_arr[7]);
 			$umrnNumber = count($umrnNumberFirst) > 1 ? explode('~', $umrnNumberFirst[1]) : null;
 			$umrnNumber = $umrnNumber ? $umrnNumber[0] : 0;
-			// var_dump($umrnNumber);
+			// var_dump($start_dt, $end_dt, $amountNumber); exit;
 			// var_dump(explode('~', explode('UMRNNumber:', $resp_msg_arr[7])[1])[0]);exit;
             if(is_array($resp_msg_arr)){
                 $tnx_dt_arr = array(
@@ -186,6 +191,8 @@ class Mandate extends CI_Controller {
                     "tpsl_bank_cd" => $resp_msg_arr[4],
                     "tpsl_txn_id" => $resp_msg_arr[5],
                     "txn_amt" => $resp_msg_arr[6],
+					"start_dt" => $start_dt,
+					"end_dt" => $end_dt,
                     "tpsl_txn_date_time" => date('Y-m-d h:i:s', strtotime($resp_msg_arr[8])),
                     "bank_tnx_id" => $resp_msg_arr[12],
                     "mandate_reg_no" => $resp_msg_arr[13],

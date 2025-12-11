@@ -118,7 +118,7 @@ $(document).ready(function() {
             "consumerData": {
                 "deviceId": "WEBSH2",    //possible values "WEBSH1" or "WEBSH2"
                 "token": $('#token').val().toString(),
-                "returnUrl": "<?= site_url() ?>/tnx_resp?loan_id="+$('#consumer_id').val()+"&cust_id="+$('#cust_id').val()+"&tnx_id=<?= $tnxId ?>&flag=<?= $flag ?>&cust_name="+$('#cust_name').val()+"&t_and_c="+($('#termsCheckbox').is(':checked') ? 'Y' : 'N'),
+                "returnUrl": "<?= site_url() ?>/tnx_resp?loan_id="+$('#consumer_id').val()+"&cust_id="+$('#cust_id').val()+"&tnx_id=<?= $tnxId ?>&flag=<?= $flag ?>&cust_name="+$('#cust_name').val()+"&t_and_c="+($('#termsCheckbox').is(':checked') ? 'Y' : 'N')+"&strt_dt="+ encodeURIComponent($('#strt_dt').val())+"&end_dt="+encodeURIComponent($('#end_dt').val()),    //Your return URL where Paynimo will send the response,
                 "responseHandler": handleResponse,
                 "paymentMode": "netBanking",
                 "merchantLogoUrl": "https://enach.bankuracardbank.com/assets/images/logo-bankura-ardb.jpg",  //provided merchant logo will be displayed

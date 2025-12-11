@@ -25,3 +25,4 @@ Thumbs.db
 *.bak
 ~*
 application/config/database.php
+response_file/*
