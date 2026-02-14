@@ -5,14 +5,9 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-	<style>
-		img:is([sizes="auto" i], [sizes^="auto," i]) {
-			contain-intrinsic-size: 3000px 1500px
-		}
-	</style>
 
 	<!-- This site is optimized with the Yoast SEO plugin v25.8 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Natch - Welcome to Bankura District Co-operative ARDB Ltd.</title>
+	<title>E-Nach - Welcome to Bankura District Co-operative ARDB Ltd.</title>
 	<link rel="canonical" href="https://bankuracardbank.com/loan/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
@@ -36,11 +31,17 @@
 	<link rel="alternate" type="application/rss+xml"
 		title="Welcome to Bankura District Co-operative ARDB Ltd. &raquo; Comments Feed"
 		href="https://bankuracardbank.com/comments/feed/" />
-	<script>
-		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/bankuracardbank.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3" } };
-		/*! This file is auto-generated */
-		!function (s, n) { var o, i, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === a[t] }) } function u(e, t) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)if (0 !== n.data[a]) return !1; return !0 } function f(e, t, n, a) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !a(e, "\ud83e\udedf") }return !1 } function g(e, t, n, a) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : s.createElement("canvas"), o = r.getContext("2d", { willReadFrequently: !0 }), i = (o.textBaseline = "top", o.font = "600 32px Arial", {}); return e.forEach(function (e) { i[e] = t(o, e, n, a) }), i } function t(e) { var t = s.createElement("script"); t.src = e, t.defer = !0, s.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", i = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { s.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p.toString(), u.toString()].join(",") + "));", a = new Blob([e], { type: "text/javascript" }), r = new Worker(URL.createObjectURL(a), { name: "wpTestEmojiSupports" }); return void (r.onmessage = function (e) { c(n = e.data), r.terminate(), t(n) }) } catch (e) { } c(n = g(i, f, p, u)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
-	</script>
+	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+		href="https://bankuracardbank.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbankuracardbank.com%2Floan%2F" />
+	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+		href="https://bankuracardbank.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbankuracardbank.com%2Floan%2F&#038;format=xml" />
+	<style id='wp-img-auto-sizes-contain-inline-css'>
+		img:is([sizes=auto i], [sizes^="auto," i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}
+
+		/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+	</style>
 	<style id='wp-emoji-styles-inline-css'>
 		img.wp-smiley,
 		img.emoji {
@@ -54,196 +55,227 @@
 			background: none !important;
 			padding: 0 !important;
 		}
+
+		/*# sourceURL=wp-emoji-styles-inline-css */
 	</style>
-	<link rel='stylesheet' id='wp-block-library-css'
-		href='https://bankuracardbank.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' media='all' />
-	<style id='wp-block-library-theme-inline-css'>
-		.wp-block-audio :where(figcaption) {
-			color: #555;
-			font-size: 13px;
+	<style id='wp-block-library-inline-css'>
+		:root {
+			--wp-block-synced-color: #7a00df;
+			--wp-block-synced-color--rgb: 122, 0, 223;
+			--wp-bound-block-color: var(--wp-block-synced-color);
+			--wp-editor-canvas-background: #ddd;
+			--wp-admin-theme-color: #007cba;
+			--wp-admin-theme-color--rgb: 0, 124, 186;
+			--wp-admin-theme-color-darker-10: #006ba1;
+			--wp-admin-theme-color-darker-10--rgb: 0, 107, 160.5;
+			--wp-admin-theme-color-darker-20: #005a87;
+			--wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+			--wp-admin-border-width-focus: 2px
+		}
+
+		@media (min-resolution:192dpi) {
+			:root {
+				--wp-admin-border-width-focus: 1.5px
+			}
+		}
+
+		.wp-element-button {
+			cursor: pointer
+		}
+
+		:root .has-very-light-gray-background-color {
+			background-color: #eee
+		}
+
+		:root .has-very-dark-gray-background-color {
+			background-color: #313131
+		}
+
+		:root .has-very-light-gray-color {
+			color: #eee
+		}
+
+		:root .has-very-dark-gray-color {
+			color: #313131
+		}
+
+		:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+			background: linear-gradient(135deg, #00d084, #0693e3)
+		}
+
+		:root .has-purple-crush-gradient-background {
+			background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
+		}
+
+		:root .has-hazy-dawn-gradient-background {
+			background: linear-gradient(135deg, #faaca8, #dad0ec)
+		}
+
+		:root .has-subdued-olive-gradient-background {
+			background: linear-gradient(135deg, #fafae1, #67a671)
+		}
+
+		:root .has-atomic-cream-gradient-background {
+			background: linear-gradient(135deg, #fdd79a, #004a59)
+		}
+
+		:root .has-nightshade-gradient-background {
+			background: linear-gradient(135deg, #330968, #31cdcf)
+		}
+
+		:root .has-midnight-gradient-background {
+			background: linear-gradient(135deg, #020381, #2874fc)
+		}
+
+		:root {
+			--wp--preset--font-size--normal: 16px;
+			--wp--preset--font-size--huge: 42px
+		}
+
+		.has-regular-font-size {
+			font-size: 1em
+		}
+
+		.has-larger-font-size {
+			font-size: 2.625em
+		}
+
+		.has-normal-font-size {
+			font-size: var(--wp--preset--font-size--normal)
+		}
+
+		.has-huge-font-size {
+			font-size: var(--wp--preset--font-size--huge)
+		}
+
+		.has-text-align-center {
 			text-align: center
 		}
 
-		.is-dark-theme .wp-block-audio :where(figcaption) {
-			color: #ffffffa6
+		.has-text-align-left {
+			text-align: left
 		}
 
-		.wp-block-audio {
+		.has-text-align-right {
+			text-align: right
+		}
+
+		.has-fit-text {
+			white-space: nowrap !important
+		}
+
+		#end-resizable-editor-section {
+			display: none
+		}
+
+		.aligncenter {
+			clear: both
+		}
+
+		.items-justified-left {
+			justify-content: flex-start
+		}
+
+		.items-justified-center {
+			justify-content: center
+		}
+
+		.items-justified-right {
+			justify-content: flex-end
+		}
+
+		.items-justified-space-between {
+			justify-content: space-between
+		}
+
+		.screen-reader-text {
+			border: 0;
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute;
+			width: 1px;
+			word-wrap: normal !important
+		}
+
+		.screen-reader-text:focus {
+			background-color: #ddd;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000
+		}
+
+		html :where(.has-border-color) {
+			border-style: solid
+		}
+
+		html :where([style*=border-top-color]) {
+			border-top-style: solid
+		}
+
+		html :where([style*=border-right-color]) {
+			border-right-style: solid
+		}
+
+		html :where([style*=border-bottom-color]) {
+			border-bottom-style: solid
+		}
+
+		html :where([style*=border-left-color]) {
+			border-left-style: solid
+		}
+
+		html :where([style*=border-width]) {
+			border-style: solid
+		}
+
+		html :where([style*=border-top-width]) {
+			border-top-style: solid
+		}
+
+		html :where([style*=border-right-width]) {
+			border-right-style: solid
+		}
+
+		html :where([style*=border-bottom-width]) {
+			border-bottom-style: solid
+		}
+
+		html :where([style*=border-left-width]) {
+			border-left-style: solid
+		}
+
+		html :where(img[class*=wp-image-]) {
+			height: auto;
+			max-width: 100%
+		}
+
+		:where(figure) {
 			margin: 0 0 1em
 		}
 
-		.wp-block-code {
-			border: 1px solid #ccc;
-			border-radius: 4px;
-			font-family: Menlo, Consolas, monaco, monospace;
-			padding: .8em 1em
+		html :where(.is-position-sticky) {
+			--wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
 		}
 
-		.wp-block-embed :where(figcaption) {
-			color: #555;
-			font-size: 13px;
-			text-align: center
+		@media screen and (max-width:600px) {
+			html :where(.is-position-sticky) {
+				--wp-admin--admin-bar--position-offset: 0px
+			}
 		}
 
-		.is-dark-theme .wp-block-embed :where(figcaption) {
-			color: #ffffffa6
-		}
-
-		.wp-block-embed {
-			margin: 0 0 1em
-		}
-
-		.blocks-gallery-caption {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .blocks-gallery-caption {
-			color: #ffffffa6
-		}
-
-		:root :where(.wp-block-image figcaption) {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme :root :where(.wp-block-image figcaption) {
-			color: #ffffffa6
-		}
-
-		.wp-block-image {
-			margin: 0 0 1em
-		}
-
-		.wp-block-pullquote {
-			border-bottom: 4px solid;
-			border-top: 4px solid;
-			color: currentColor;
-			margin-bottom: 1.75em
-		}
-
-		.wp-block-pullquote cite,
-		.wp-block-pullquote footer,
-		.wp-block-pullquote__citation {
-			color: currentColor;
-			font-size: .8125em;
-			font-style: normal;
-			text-transform: uppercase
-		}
-
-		.wp-block-quote {
-			border-left: .25em solid;
-			margin: 0 0 1.75em;
-			padding-left: 1em
-		}
-
-		.wp-block-quote cite,
-		.wp-block-quote footer {
-			color: currentColor;
-			font-size: .8125em;
-			font-style: normal;
-			position: relative
-		}
-
-		.wp-block-quote:where(.has-text-align-right) {
-			border-left: none;
-			border-right: .25em solid;
-			padding-left: 0;
-			padding-right: 1em
-		}
-
-		.wp-block-quote:where(.has-text-align-center) {
-			border: none;
-			padding-left: 0
-		}
-
-		.wp-block-quote.is-large,
-		.wp-block-quote.is-style-large,
-		.wp-block-quote:where(.is-style-plain) {
-			border: none
-		}
-
-		.wp-block-search .wp-block-search__label {
-			font-weight: 700
-		}
-
-		.wp-block-search__button {
-			border: 1px solid #ccc;
-			padding: .375em .625em
-		}
-
-		:where(.wp-block-group.has-background) {
-			padding: 1.25em 2.375em
-		}
-
-		.wp-block-separator.has-css-opacity {
-			opacity: .4
-		}
-
-		.wp-block-separator {
-			border: none;
-			border-bottom: 2px solid;
-			margin-left: auto;
-			margin-right: auto
-		}
-
-		.wp-block-separator.has-alpha-channel-opacity {
-			opacity: 1
-		}
-
-		.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
-			width: 100px
-		}
-
-		.wp-block-separator.has-background:not(.is-style-dots) {
-			border-bottom: none;
-			height: 1px
-		}
-
-		.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
-			height: 2px
-		}
-
-		.wp-block-table {
-			margin: 0 0 1em
-		}
-
-		.wp-block-table td,
-		.wp-block-table th {
-			word-break: normal
-		}
-
-		.wp-block-table :where(figcaption) {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .wp-block-table :where(figcaption) {
-			color: #ffffffa6
-		}
-
-		.wp-block-video :where(figcaption) {
-			color: #555;
-			font-size: 13px;
-			text-align: center
-		}
-
-		.is-dark-theme .wp-block-video :where(figcaption) {
-			color: #ffffffa6
-		}
-
-		.wp-block-video {
-			margin: 0 0 1em
-		}
-
-		:root :where(.wp-block-template-part.has-background) {
-			margin-bottom: 0;
-			margin-top: 0;
-			padding: 1.25em 2.375em
-		}
+		/*# sourceURL=wp-block-library-inline-css */
 	</style>
 	<style id='classic-theme-styles-inline-css'>
 		/*! This file is auto-generated */
@@ -262,6 +294,8 @@
 			color: #fff;
 			text-decoration: none
 		}
+
+		/*# sourceURL=/wp-includes/css/classic-themes.min.css */
 	</style>
 	<style id='global-styles-inline-css'>
 		:root {
@@ -292,10 +326,10 @@
 			--wp--preset--color--red: #E4D1D1;
 			--wp--preset--color--orange: #E4DAD1;
 			--wp--preset--color--yellow: #EEEADD;
-			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgb(6, 147, 227) 0%, rgb(155, 81, 224) 100%);
 			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgb(252, 185, 0) 0%, rgb(255, 105, 0) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgb(255, 105, 0) 0%, rgb(207, 46, 46) 100%);
 			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
 			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
 			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
@@ -331,8 +365,8 @@
 			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
 			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
 			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);
 		}
 
 		:where(.is-layout-flex) {
@@ -588,27 +622,9 @@
 			font-size: var(--wp--preset--font-size--x-large) !important;
 		}
 
-		:where(.wp-block-post-template.is-layout-flex) {
-			gap: 1.25em;
-		}
-
-		:where(.wp-block-post-template.is-layout-grid) {
-			gap: 1.25em;
-		}
-
-		:where(.wp-block-columns.is-layout-flex) {
-			gap: 2em;
-		}
-
-		:where(.wp-block-columns.is-layout-grid) {
-			gap: 2em;
-		}
-
-		:root :where(.wp-block-pullquote) {
-			font-size: 1.5em;
-			line-height: 1.6;
-		}
+		/*# sourceURL=global-styles-inline-css */
 	</style>
+
 	<link rel='stylesheet' id='twenty-twenty-one-style-css'
 		href='https://bankuracardbank.com/wp-content/themes/BDCARDB/style.css?ver=1.2' media='all' />
 	<link rel='stylesheet' id='twenty-twenty-one-print-style-css'
@@ -617,12 +633,8 @@
 	<link rel="alternate" title="JSON" type="application/json"
 		href="https://bankuracardbank.com/wp-json/wp/v2/pages/841" />
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bankuracardbank.com/xmlrpc.php?rsd" />
-	<meta name="generator" content="WordPress 6.8.3" />
+	<meta name="generator" content="WordPress 6.9.1" />
 	<link rel='shortlink' href='https://bankuracardbank.com/?p=841' />
-	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-		href="https://bankuracardbank.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbankuracardbank.com%2Floan%2F" />
-	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-		href="https://bankuracardbank.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbankuracardbank.com%2Floan%2F&#038;format=xml" />
 	<link rel="shortcut icon" type="image/x-icon"
 		href="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/images/favicon.png" />
 
@@ -655,6 +667,10 @@
 	<link rel="stylesheet" type="text/css"
 		href="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/css/font-awesome.css">
 
+	<link rel="stylesheet" href="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/css/gallery.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
 	<link rel="stylesheet" type="text/css"
 		href="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/slick/slick.css">
 	<link rel="stylesheet" type="text/css"
@@ -665,6 +681,11 @@
 	<link rel="stylesheet" type="text/css"
 		href="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/css/apps_inner.css">
 	<!--<link rel="stylesheet" type="text/css" href="/assets/css/black_White.css">-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 	<link rel="stylesheet" type="text/css"
 		href="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/css/res.css">
 
@@ -679,7 +700,7 @@
 </head>
 
 <body
-	class="wp-singular page-template-default page page-id-841 wp-embed-responsive wp-theme-BDCARDB wp-child-theme-BDCARDB-child sp-easy-accordion-enabled is-light-theme no-js singular no-widgets"
+	class="wp-singular page-template-default page page-id-841 wp-embed-responsive wp-theme-BDCARDB wp-child-theme-BDCARDB-child sp-easy-accordion-enabled is-light-theme no-js singular has-main-navigation no-widgets"
 	class="black_White">
 	<!--<div id="page">-->
 
@@ -694,20 +715,11 @@
 						title="Welcome to Bankura District Co-operative ARDB Ltd." rel="home" class="standard-logo"><img
 							src="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/images/logo-bankura-ardb.jpg"
 							alt=""></a></div>
-			</div>
-
-		</div>
-	</div>
-
-	<div class="navFullSec">
-		<div class="wrapper">
-			<div class="topNavSec">
 				<div class="navSec">
 					<ul id="menu-top-menu" class="mainNav">
 						<li id="menu-item-380"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-380">
-							<a href="https://bankuracardbank.com/">Home</a>
-						</li>
+							<a href="https://bankuracardbank.com/">Home</a></li>
 						<li id="menu-item-984"
 							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-984">
 							<a href="#">About Us</a><button class="sub-menu-toggle" aria-expanded="false"
@@ -728,34 +740,34 @@
 								<li id="menu-item-974"
 									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-974"><a
 										href="https://bankuracardbank.com/about-us/">About Us</a></li>
-								<li id="menu-item-983"
-									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983"><a
-										href="https://bankuracardbank.com/about-us/board-of-directors-key-officials/">Board
-										of Directors &#038; Key Officials</a></li>
 							</ul>
 						</li>
 						<li id="menu-item-843"
 							class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-841 current_page_item menu-item-843">
-							<a href="https://bankuracardbank.com/loan/" aria-current="page">Loan</a>
-						</li>
+							<a href="https://bankuracardbank.com/loan/" aria-current="page">Loan</a></li>
 						<li id="menu-item-909"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-909"><a
 								href="https://bankuracardbank.com/deposit/">Deposit</a></li>
-						<li id="menu-item-393"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a
-								href="https://bankuracardbank.com/about-us/online-services/">Online Services</a></li>
+						<li id="menu-item-983"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983"><a
+								href="https://bankuracardbank.com/about-us/board-of-directors-key-officials/">BOD</a>
+						</li>
 						<li id="menu-item-910"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-910"><a
 								href="https://bankuracardbank.com/gallery/">Gallery</a></li>
 						<li id="menu-item-911"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-911"><a
 								href="https://bankuracardbank.com/notice/">Notice</a></li>
+						<li id="menu-item-1041"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041"><a
+								href="https://bankuracardbank.com/interest-rate/">Interest Rate</a></li>
 						<li id="menu-item-912"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-912"><a
 								href="https://bankuracardbank.com/contact-us/">Contact Us</a></li>
 						<li id="menu-item-1018"
 							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1018"><a
-								target="_blank" href="https://enach.bankuracardbank.com/index.php/manreg">NACH</a></li>
+								target="_blank" href="https://enach.bankuracardbank.com/index.php/manreg">e-NACH</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -782,7 +794,7 @@
 	<div class="bannerInner">
 		<div class="wrapper">
 			<div class="col-sm-12">
-				<h1 class="innerPageTitle">Nach</h1>
+				<h1 class="innerPageTitle">E-Nach</h1>
 			</div>
 		</div>
 	</div>
@@ -802,7 +814,7 @@
 			<div class="breadcrumb">
 				</p>
 				<p id=�breadcrumbs�><span><span><a href="https://bankuracardbank.com/">Home</a></span> » <span
-							class="breadcrumb_last" aria-current="page">Nach</span></span></p>
+							class="breadcrumb_last" aria-current="page">E-Nach</span></span></p>
 				<p>
 			</div>
 		</div>
@@ -830,7 +842,7 @@
 				</script>
 				<?php $this->load->view('eMandate/entry', $data) ?>
 				<br clear="all" />
-
+			
 			</div>
 		</div>
 
@@ -838,24 +850,33 @@
 
 
 	</div>
+
+	<!-- </main>#main -->
+	<!-- </div>#primary -->
+	<!-- </div>#content -->
+
+
+
+
+
+
+
 	<div class="footerBlue">
 		<div class="wrapper">
 
 
-			<div class="col-sm-5 float-left footerLeft_address">
+			<div class="col-sm-6 float-left footerLeft_address">
 				<h2>Get in Touch</h2>
 				<ul class="address">
 					<li class="addresList">Bankura Main Branch &amp; Head Office – Rampur, Monohartala, Bankura</li>
 					<li class="emailList"><a href="mailto:bankuraardb@gmail.com">bankuraardb@gmail.com</a></li>
-					<li class="phonList">033 222 4444</li>
+					<li class="phonList">9242 803798</li>
+					<li class="normal">Follow Us: <a href="https://www.facebook.com/profile.php?id=61577770061274"
+							target="_blank"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
 				</ul>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14665.014549802461!2d87.05097566195641!3d23.233855596084297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRampur%2C%20Monohartala%2C%20Bankura!5e0!3m2!1sen!2sin!4v1757581400037!5m2!1sen!2sin"
-					width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 
-			<div class="col-sm-4 float-left footerLeft">
+			<div class="col-sm-3 float-left footerLeft">
 				<h2>Quick Links</h2>
 				<ul id="menu-quick-link" class="menu">
 					<li id="menu-item-950"
@@ -870,8 +891,7 @@
 							Directors &#038; Key Officials</a></li>
 					<li id="menu-item-951"
 						class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-841 current_page_item menu-item-951">
-						<a href="https://bankuracardbank.com/loan/" aria-current="page">Loan</a>
-					</li>
+						<a href="https://bankuracardbank.com/loan/" aria-current="page">Loan</a></li>
 					<li id="menu-item-1012"
 						class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1012"><a
 							href="https://bankuracardbank.com/deposit/">Deposit</a></li>
@@ -893,39 +913,35 @@
 			<div class="col-sm-3 float-left footerLeft">
 				<h2>Important Links</h2>
 				<ul class="menu">
-					<!-- 	<li><a href="https://wb.gov.in/" target="_blank" rel="noopener">Egiye Bangla</a></li>-->
+					<li><a href="https://wb.gov.in/" target="_blank" rel="noopener">Egiye Bangla</a></li>
 					<li><a href="https://cooperation.wb.gov.in/" target="_blank" rel="noopener">Co-operation Department,
 							WB</a></li>
-					<li><a href="https://www.wbscardb.com/" target="_blank" rel="noopener">WBSCARD Bank Ltd</a></li>
+					<li><a href="https://wbdca.in/" target="_blank" rel="noopener">D.C.A. Government of West Bengal</a>
+					</li>
+					<li><a href="https://www.wbstcb.com" target="_blank" rel="noopener">The West Bengal State
+							Co-operative Bank Limited</a></li>
 					<li><a href="https://www.nabard.org/Hindi/Default.aspx" target="_blank" rel="noopener">NABARD</a>
 					</li>
 					<li><a href="https://www.rbi.org.in/" target="_blank" rel="noopener">RBI</a></li>
-					<li><a href="https://wbdca.in/" target="_blank" rel="noopener">D.C.A. Government of West Bengal</a>
-					</li>
-					<li><a href="https://wbcec.wb.gov.in/" target="_blank" rel="noopener">Co-operative Election
-							Commission, WB</a></li>
-
+					<!--
+ 	<li><a href="https://wbcec.wb.gov.in/" target="_blank" rel="noopener">Co-operative Election Commission, WB</a></li>
+ 	<li><a href="https://finance.wb.gov.in/" target="_blank" rel="noopener">Finance Department, WB</a></li>
+ 	<li><a href="https://www.wbifms.gov.in/" target="_blank" rel="noopener"> iFMS, WB</a></li>
+ 	<li><a href="https://wbpar.gov.in/" target="_blank" rel="noopener">Personnel &amp; Administrative Reforms Department, WB</a></li>
+ 	<li><a href="https://www.wbifms.gov.in/GRIPS/v2/#/" target="_blank" rel="noopener">Online Audit Fees Payment</a></li>
+-->
 				</ul>
 			</div>
 
 		</div>
 	</div>
 
-	<div class="footerCopyright">
-		<a href="https://bankuracardbank.com/terms-conditions/" target="_blank" style="color:#d7b43c;">Terms &amp;
-			Conditions</a> | <a href="https://bankuracardbank.com/privacy-policy/" target="_blank"
-			style="color:#d7b43c;">Privacy Policy</a> | <a href="https://bankuracardbank.com/delivery-shipping-policy/"
-			target="_blank" style="color:#d7b43c;">Delivery/Shipping Policy</a> | <a
-			href="https://bankuracardbank.com/cancellation-refund-policy/" target="_blank"
-			style="color:#d7b43c;">Cancellation/Refund Policy</a><br>
-		Copyright © 2025 Bankura District Co-operative ARDB Ltd. All rights reserved.<br>
-		<a href="https://www.synergicsoftek.in/" target="_blank">Designed &amp; Developed By Synergic Softek Solutions Pvt.
-			Ltd. </a>
+	<div class="footerCopyright">Copyright &#169; 2026 Bankura District Co-operative ARDB Ltd. All rights reserved.
 	</div>
 
 
 	<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/BDCARDB-child\/*","\/wp-content\/themes\/BDCARDB\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/BDCARDB-child/*","/wp-content/themes/BDCARDB/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
 	<script>document.body.classList.remove("no-js");</script>
 	<script>
@@ -933,15 +949,33 @@
 			document.body.classList.add('is-IE');
 		}
 	</script>
-	<script id="twenty-twenty-one-ie11-polyfills-js-after">
-		(Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) || document.write('<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB/assets/js/polyfills.js?ver=1.2"></scr' + 'ipt>');
-	</script>
-	<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB/assets/js/responsive-embeds.js?ver=1.2"
-		id="twenty-twenty-one-responsive-embeds-script-js"></script>
 	<script>
 		/(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", (function () { var t, e = location.hash.substring(1); /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus()) }), !1);
 	</script>
+	<script id="twenty-twenty-one-ie11-polyfills-js-after">
+		(Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) || document.write('<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB/assets/js/polyfills.js?ver=1.2"></scr' + 'ipt>');
+		//# sourceURL=twenty-twenty-one-ie11-polyfills-js-after
+	</script>
+	<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB/assets/js/primary-navigation.js?ver=1.2"
+		id="twenty-twenty-one-primary-navigation-script-js"></script>
+	<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB/assets/js/responsive-embeds.js?ver=1.2"
+		id="twenty-twenty-one-responsive-embeds-script-js"></script>
+	<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://bankuracardbank.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.1"}}
+</script>
+	<script type="module">
+		/*! This file is auto-generated */
+		const a = JSON.parse(document.getElementById("wp-emoji-settings").textContent), o = (window._wpemojiSettings = a, "wpEmojiSettingsSupports"), s = ["flag", "emoji"]; function i(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function c(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data); e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0); const a = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data); return t.every((e, t) => e === a[t]) } function p(e, t) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var n = e.getImageData(16, 16, 1, 1); for (let e = 0; e < n.data.length; e++)if (0 !== n.data[e]) return !1; return !0 } function u(e, t, n, a) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !a(e, "\ud83e\u1fac8") }return !1 } function f(e, t, n, a) { let r; const o = (r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : document.createElement("canvas")).getContext("2d", { willReadFrequently: !0 }), s = (o.textBaseline = "top", o.font = "600 32px Arial", {}); return e.forEach(e => { s[e] = t(o, e, n, a) }), s } function r(e) { var t = document.createElement("script"); t.src = e, t.defer = !0, document.head.appendChild(t) } a.supports = { everything: !0, everythingExceptFlag: !0 }, new Promise(t => { let n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), c.toString(), p.toString()].join(",") + "));", a = new Blob([e], { type: "text/javascript" }); const r = new Worker(URL.createObjectURL(a), { name: "wpTestEmojiSupports" }); return void (r.onmessage = e => { i(n = e.data), r.terminate(), t(n) }) } catch (e) { } i(n = f(s, u, c, p)) } t(n) }).then(e => { for (const n in e) a.supports[n] = e[n], a.supports.everything = a.supports.everything && a.supports[n], "flag" !== n && (a.supports.everythingExceptFlag = a.supports.everythingExceptFlag && a.supports[n]); var t; a.supports.everythingExceptFlag = a.supports.everythingExceptFlag && !a.supports.flag, a.supports.everything || ((t = a.source || {}).concatemoji ? r(t.concatemoji) : t.wpemoji && t.twemoji && (r(t.twemoji), r(t.wpemoji))) });
+		//# sourceURL=https://bankuracardbank.com/wp-includes/js/wp-emoji-loader.min.js
+	</script>
 
+
+	<!--use for EMI calculator Start-->
+	<!--<script defer src="/assets/emi_cal/clientlib-emiCalc.js"></script>-->
+	<!--use for EMI calculator End-->
+
+
+	<!--<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>-->
 	<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/js/jquery-2.2.0.min.js"
 		type="text/javascript"></script>
 	<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/slick/slick.js"
@@ -951,9 +985,24 @@
 		src="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/js/bootstrap.min.js"
 		id="bootstrap-js-js"></script>
 
+
 	<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/js/jquery.js"></script>
 
+	<!--<script src="/assets/js/fd_rd_calculate.js"></script>-->
+
+	<!--<script type="text/javascript" src="/assets/js/main.js" id="main-js-js"></script>-->
+
 	<script src="https://bankuracardbank.com/wp-content/themes/BDCARDB-child/assets/js/javascript.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+	<!--
+<div id="content" style="display: none;">
+<li><a href='https://espaciostransnacionales.xoc.uam.mx/'>slot gacor</a></li>
+</div>
+-->
 </body>
 
 </html>
