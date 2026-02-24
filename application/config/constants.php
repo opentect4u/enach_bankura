@@ -88,6 +88,6 @@ define('SALT_KEY', '2560649548TLGFOI');
 define('MERCHANT_CODE', 'T1113287');
 // define('MERCHANT_CODE', 'L1016979');
 define('SCHEME_CODE', 'FIRST');
-define('API_URL', 'http://localhost:3000/bankura');
-// define('API_URL', 'https://nach.wbscardb.com/bankura');
+// define('API_URL', 'http://localhost:3000/bankura');
+define('API_URL', 'https://nach.wbscardb.com/bankura');
 define('API_AUTH_KEY', '21ea69356c738060b4cc105df661c89e5af40264fe42c52346741ceef0bf1a212aed4ebf731999891757c1509306de5a');
